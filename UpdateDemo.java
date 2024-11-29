@@ -9,7 +9,7 @@ public class UpdateDemo {
         // Connection and database info
         String url = "jdbc:mysql://localhost:3306/jdbc_db";
         String username = "root";
-        String password = "M@n$!kum12";
+        String password = "";
 
         // SQL query for update
         String sql = "UPDATE register SET city=? WHERE email=?";

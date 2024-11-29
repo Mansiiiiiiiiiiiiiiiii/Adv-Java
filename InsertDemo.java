@@ -5,7 +5,7 @@ public class InsertDemo {
         // JDBC URL, username, and password for MySQL database
         String url = "jdbc:mysql://localhost:3306/jdbc_db";
         String username = "root";
-        String password = "password";
+        String password = "";
 
         // SQL query with placeholders
         String sql = "INSERT INTO register (name, email, password, gender, city) VALUES (?, ?, ?, ?, ?)";
